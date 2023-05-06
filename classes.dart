@@ -9,7 +9,7 @@ class Player {
   //thus we use late
   //late is very useful on class!
 
-  Player(
+  Player( // normal constructor
       // default constructor
       // named constructor parameter
       {required this.name,
@@ -80,4 +80,7 @@ void main() {
   //this can be problamatic if class gets big
   //too many positional argument - we get lost!
   //print(player2.name);
+
+  //once you get data from api, you need to convert it into dart/flutter class
+  
 }
